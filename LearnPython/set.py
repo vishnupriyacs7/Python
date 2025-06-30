@@ -24,3 +24,13 @@ set1.discard("c#")
 print(set1)
 # set1.remove("c#")
 print(set1)
+
+# add
+set2 = {1,2,3,4}
+set3 = set1.union(set2)
+print(set3)
+
+set1.clear()
+print(set1)
+del set1
+# print(set1)
